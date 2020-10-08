@@ -1,0 +1,29 @@
+
+.modal-title{
+    font-size: .82rem;
+    letter-spacing: .5px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.modal input[type="text"], input[type="number"], .radio-inline {
+    font-size: .75rem;
+    text-transform: capitalize;
+}
+
+.modal-footer > button {
+    width: 16%;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: .73rem;
+    letter-spacing: 1.5px;
+}
+
+.close:focus,.close:active {
+    outline: none !important;
+    box-shadow: none;
+ }

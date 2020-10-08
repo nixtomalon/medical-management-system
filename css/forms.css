@@ -1,0 +1,27 @@
+.fade input[type=text], .fade input[type=number], .select {
+    border: none;
+    border-bottom: solid 1px #ccc;
+    outline: none;
+    border-radius: 0%;
+    padding: 0px;
+    width: 100%;
+}
+
+#birthdate {
+    border: none;
+    border-bottom: solid 1px #ccc;
+    outline: none;
+    border-radius: 0%;
+    padding: 0px;
+    width: 100%;
+    float: left;
+}
+.select{
+    font-size: .75rem;
+    padding: 6px 0px;
+}
+
+option {
+    line-height: 2px;
+    font-size: .75rem;
+}
