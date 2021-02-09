@@ -164,6 +164,7 @@ img {
 </html>
 <script>
 $(document).ready(function(){
+  console.log('wapo');
   $("#btnlog").click(function(){
         var uname = $("#log_n").val()
         var pwd = $("#log_p").val()
